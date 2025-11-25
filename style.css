@@ -1,5 +1,42 @@
 body {
-    height: 100%;
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
 
-/* YOUR CSS CODE GOES HERE */
+#container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#details {
+    width: 480px;
+}
+
+#info-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#info-table td {
+    border: 1px solid #aaa;
+    padding: 4px;
+    white-space: nowrap;
+}
+
+/* scatterplot cell */
+.cell rect {
+    fill: white;
+    stroke: #aaa;
+}
+
+/* points */
+.point {
+    opacity: 0.6;
+}
+
+.point.selected {
+    stroke: black;
+    stroke-width: 2px;
+    opacity: 1;
+}

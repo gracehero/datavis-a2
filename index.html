@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>DataVis - Assignment 2</title>
 
-    Instead of this blank page, your beautiful visualizations should appear here :)
+
 
     <!-- Loading d3js version 5-->
     <script src="d3.v5.min.js"></script>
@@ -19,7 +19,20 @@
 <body>
 
     <!-- YOUR SOLUTION GOES HERE-->
+    <h1>Cars Scatterplot Matrix + Details + Starplot</h1>
 
+    <div id="container">
+        <div id="matrix"></div>
+
+        <div id="right-panel">
+            <h2>Selected Car</h2>
+            <table id="info-table"></table>
+            <h3>Starplot</h3>
+            <svg id="starplot"></svg>
+        </div>
+    </div>
+
+    <script src="d3.v5.min.js"></script>
 
     <!-- loading the main javascript file; implement logic there -->
     <script src="main.js"></script>
