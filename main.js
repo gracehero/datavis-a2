@@ -27,13 +27,13 @@ window.onload = () => {
   // D3 symbols by Type
   const symbol = d3.symbol();
   const typeSymbols = {
-    "Sedan": d3.symbolCircle,      // 기존 유지
-    "SUV": d3.symbolStar,          // ★ 완전히 다른, 잘 보이는 도형으로 변경
+    "Sedan": d3.symbolCircle,
+    "SUV": d3.symbolStar,
     "Sports Car": d3.symbolDiamond,
     "Wagon": d3.symbolSquare,
-    "Pickup": d3.symbolTriangle,   // 기존 triangle 도형을 Pickup에게 이동
-    "Minivan": d3.symbolCross,     // Sedan과 중복 방지 → cross로 변경
-    "Other": d3.symbolWye          // cross를 Minivan에게 줬으니 여기엔 wye 배치
+    "Pickup": d3.symbolTriangle,
+    "Minivan": d3.symbolCross,
+    "Other": d3.symbolWye
   };
 
 
